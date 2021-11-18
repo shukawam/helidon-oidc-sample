@@ -1,0 +1,17 @@
+# maven
+target/
+
+# idea
+*iml
+.idea/
+
+# vscode
+.classpath
+.project
+.settings/
+
+# helidon
+.helidon*
+
+# secret
+deploy/docker/idcs_variables.env

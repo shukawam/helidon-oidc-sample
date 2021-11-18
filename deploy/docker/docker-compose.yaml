@@ -1,0 +1,8 @@
+services:
+  rp:
+    image: shukawam/helidon-oidc-sample:1.0
+    container_name: oidc-rp
+    ports:
+      - 8080:8080
+    env_file:
+      - idcs_variables.env
